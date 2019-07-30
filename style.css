@@ -1,14 +1,20 @@
 #clock {
-}
-
-#clock img {
-}
-
-#hour {
-}
-
-#minute {
-}
-
-#second {
-}
+    display: flex;
+    /* justify-content: center; */
+    }
+    
+    #second-hand {
+    position: absolute;
+    z-index: 3;
+    }
+    
+    #minute-hand {
+    position: absolute;
+    z-index: 2;
+    }
+    #hour-hand {
+    position: absolute;
+    z-index: 1;
+    }
+    
+    
